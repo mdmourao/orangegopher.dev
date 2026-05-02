@@ -1,0 +1,26 @@
+{
+  "name": "Orange Gopher",
+  "short_name": "Orange Gopher",
+  "description": "Open source Go adapters and proxy Workers for Cloudflare tools.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#f48120",
+  "icons": [
+    {
+      "src": "/assets/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/orange-gopher.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    }
+  ]
+}

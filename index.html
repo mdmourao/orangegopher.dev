@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Orange Gopher | Go adapters for Cloudflare</title>
+    <meta
+      name="description"
+      content="Orange Gopher is an open source collection of Go adapters, proxy Workers, and docs for building with Cloudflare tools such as D1 and Workers."
+    >
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <link rel="canonical" href="https://orangegopher.dev/">
+    <link rel="alternate" type="application/json" href="https://orangegopher.dev/projects.json" title="Orange Gopher projects">
+
+    <meta property="og:site_name" content="Orange Gopher">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://orangegopher.dev/">
+    <meta property="og:title" content="Orange Gopher | Go adapters for Cloudflare">
+    <meta
+      property="og:description"
+      content="Open source Go adapters and proxy Workers for Cloudflare D1, Workers, and the Cloudflare developer platform."
+    >
+    <meta property="og:image" content="https://orangegopher.dev/assets/orange-gopher.png">
+    <meta property="og:image:alt" content="Orange Gopher logo">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Orange Gopher | Go adapters for Cloudflare">
+    <meta
+      name="twitter:description"
+      content="Open source Go adapters and proxy Workers for Cloudflare tools."
+    >
+    <meta name="twitter:image" content="https://orangegopher.dev/assets/orange-gopher.png">
+
+    <meta name="theme-color" content="#f48120">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preload" as="image" href="/assets/orange-gopher.png" imagesrcset="/assets/orange-gopher.png 500w">
+    <link rel="stylesheet" href="/styles.css">
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://orangegopher.dev/#organization",
+            "name": "Orange Gopher",
+            "url": "https://orangegopher.dev/",
+            "logo": "https://orangegopher.dev/assets/orange-gopher.png",
+            "sameAs": ["https://github.com/mdmourao/go-d1"]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://orangegopher.dev/#website",
+            "url": "https://orangegopher.dev/",
+            "name": "Orange Gopher",
+            "description": "Open source Go adapters and proxy Workers for Cloudflare tools.",
+            "publisher": { "@id": "https://orangegopher.dev/#organization" }
+          },
+          {
+            "@type": "ItemList",
+            "@id": "https://orangegopher.dev/#projects",
+            "name": "Orange Gopher projects",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "SoftwareSourceCode",
+                  "name": "go-d1",
+                  "description": "Use Cloudflare D1 from Go through a Go adapter and Worker proxy.",
+                  "programmingLanguage": "Go",
+                  "runtimePlatform": "Cloudflare Workers",
+                  "codeRepository": "https://github.com/mdmourao/go-d1",
+                  "url": "https://pkg.go.dev/github.com/mdmourao/go-d1"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="/" aria-label="Orange Gopher home">
+          <img src="/assets/orange-gopher.png" width="40" height="40" alt="">
+          <span>orangegopher.dev</span>
+        </a>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#stack">Stack</a>
+          <a href="#contribute">Contribute</a>
+        </div>
+        <a class="nav-action" href="https://github.com/mdmourao" rel="noopener noreferrer" target="_blank">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Open source tools for Go developers on Cloudflare</p>
+          <h1 id="hero-title">Orange Gopher</h1>
+          <p class="hero-text">
+            Go adapters, proxy Workers, and docs that make Cloudflare services feel natural in Go projects.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#projects">Explore projects</a>
+            <a class="button secondary" href="https://github.com/mdmourao/go-d1" rel="noopener noreferrer" target="_blank">
+              View source
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <img src="/assets/orange-gopher.png" width="500" height="500" alt="">
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+        </div>
+
+        <div class="project-grid" id="project-grid" aria-busy="true">
+          <p class="project-grid-loading" data-project-loading>Loading projects&hellip;</p>
+        </div>
+        <noscript>
+          <p>Enable JavaScript to view the project list, or browse <a href="/projects.json">projects.json</a> directly.</p>
+        </noscript>
+      </section>
+
+      <section class="section contribute-section" id="contribute" aria-labelledby="contribute-title">
+        <div>
+          <p class="eyebrow">Contribute</p>
+          <h2 id="contribute-title">Bring more Cloudflare tools to Go</h2>
+          <p>
+            Orange Gopher is designed for adapters that stay boring in the best way: typed, documented, testable, and easy to deploy.
+          </p>
+        </div>
+        <a class="button primary" href="https://github.com/mdmourao" rel="noopener noreferrer" target="_blank">Open GitHub</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Orange Gopher builds open source Go tooling for Cloudflare developers.</p>
+      <a href="/projects.json">projects.json</a>
+    </footer>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "projects": [
+    {
+      "name": "go-d1",
+      "description": "Use Cloudflare D1 from Go through a Go adapter and Worker proxy.",
+      "github_repo": "https://github.com/mdmourao/go-d1",
+      "proxy_repo": "https://github.com/mdmourao/go-d1-proxy",
+      "docs_link": "https://pkg.go.dev/github.com/mdmourao/go-d1",
+      "cloudflare_tags_stack": ["D1", "Workers"]
+    }
+  ]
+}
