@@ -16,17 +16,3 @@ Projects live in [`projects.json`](./projects.json). Add a project with:
   "cloudflare_tags_stack": ["D1", "Workers"]
 }
 ```
-
-## Deploy to Cloudflare Pages
-
-1. Create a Cloudflare Pages project for this repository.
-2. Use no build command.
-3. Set the output directory to `/`.
-4. Add `orangegopher.dev` as the custom domain in Cloudflare Pages.
-
-You can also deploy from the CLI:
-
-```sh
-npm install
-npm run deploy
-```
